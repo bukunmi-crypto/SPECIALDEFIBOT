@@ -1,17 +1,2 @@
-# Navigate to your project folder
-cd path/to/telegram-airdrop-bot
-
-# Initialize Git
-git init
-
-# Add files
-git add main.py requirements.txt render.yaml
-
-# Commit changes
-git commit -m "Initial commit - Airdrop bot files"
-
-# Connect to GitHub
-git remote add origin https://github.com/your-username/your-repo.git
-
-# Push to GitHub
-git push -u origin main
+python-telegram-bot==20.3
+python-dotenv
